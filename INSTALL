@@ -1,0 +1,9 @@
+Building SquareBit
+
+See doc/readme-qt.rst for instructions on building SquareBit QT,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of SquareBit.
+
+See doc/build-*.txt for instructions on building SquareBitd,
+the intended-for-services, no-graphical-interface, reference
+implementation of SquareBit.
