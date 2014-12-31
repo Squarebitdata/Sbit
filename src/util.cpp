@@ -1009,10 +1009,7 @@ void PrintExceptionContinue(std::exception* pex, const char* pszThread)
 boost::filesystem::path GetDefaultDataDir()
 {
     namespace fs = boost::filesystem;
-    // Windows < Vista: C:\Documents and Settings\Username\Application Data\SquareBit
-    // Windows >= Vista: C:\Users\Username\AppData\Roaming\SquareBit
-    // Mac: ~/Library/Application Support/SquareBit
-    // Unix: ~/.SquareBit
+
 #ifdef WIN32
     // Windows
     return GetSpecialFolderPath(CSIDL_APPDATA) / "SquareBit";
